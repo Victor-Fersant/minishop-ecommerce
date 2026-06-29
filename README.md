@@ -58,7 +58,7 @@ npx json-server db.json
 
 5. Abra o arquivo `index.html` com a extensão **Live Server** do VS Code.
 
-## 📚 Objetivos de aprendizagem
+## Objetivos de aprendizagem
 
 Este projeto foi desenvolvido para praticar:
 
