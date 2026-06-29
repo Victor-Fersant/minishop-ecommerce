@@ -1,0 +1,181 @@
+{
+  "usuarios": [
+    {
+      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@loja.com",
+      "admin": true
+    },
+    {
+      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@loja.com",
+      "admin": false
+    },
+    {
+      "nome": "victor",
+      "email": "victor.amigos111@gmail.com",
+      "login": "dc",
+      "senha": "1347",
+      "id": "a0aa379e-fca0-48fc-adac-0c829f32f8bd",
+      "admin": false
+    },
+    {
+      "nome": "Victor Fernandes",
+      "email": "victor.amigos111@gmail.com",
+      "login": "Eu",
+      "senha": "1347",
+      "id": "26960c22-aaa0-4895-9216-1067051f9907",
+      "admin": false
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Fone de Ouvido Bluetooth",
+      "categoria": "Eletrônicos",
+      "preco": 149.9,
+      "estoque": 32,
+      "descricao": "Fone de ouvido sem fio com cancelamento de ruído e bateria de 20 horas.",
+      "imagem": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "destaque": true,
+      "avaliacao": 4.6
+    },
+    {
+      "id": "2",
+      "nome": "Smartwatch Sport",
+      "categoria": "Eletrônicos",
+      "preco": 299,
+      "estoque": 18,
+      "descricao": "Relógio inteligente com monitor cardíaco, GPS e resistência à água.",
+      "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      "destaque": true,
+      "avaliacao": 4.3
+    },
+    {
+      "id": "3",
+      "nome": "Tênis Esportivo Runner",
+      "categoria": "Calçados",
+      "preco": 219.9,
+      "estoque": 45,
+      "descricao": "Tênis leve para corrida com amortecimento em gel e solado antiderrapante.",
+      "imagem": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+      "destaque": true,
+      "avaliacao": 4.8
+    },
+    {
+      "id": "4",
+      "nome": "Mochila Notebook 15.6\"",
+      "categoria": "Acessórios",
+      "preco": 129.5,
+      "estoque": 60,
+      "descricao": "Mochila resistente à água com compartimento acolchoado para notebook.",
+      "imagem": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+      "destaque": false,
+      "avaliacao": 4.5
+    },
+    {
+      "id": "5",
+      "nome": "Cafeteira Elétrica 110V",
+      "categoria": "Casa",
+      "preco": 189,
+      "estoque": 25,
+      "descricao": "Cafeteira com filtro reutilizável e capacidade para 750ml.",
+      "imagem": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
+      "destaque": true,
+      "avaliacao": 4.2
+    },
+    {
+      "id": "6",
+      "nome": "Camiseta Algodão Premium",
+      "categoria": "Vestuário",
+      "preco": 59.9,
+      "estoque": 100,
+      "descricao": "Camiseta 100% algodão, modelagem unissex, diversas cores disponíveis.",
+      "imagem": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+      "destaque": false,
+      "avaliacao": 4.4
+    },
+    {
+      "id": "7",
+      "nome": "Caixa de Som Portátil",
+      "categoria": "Eletrônicos",
+      "preco": 179.9,
+      "estoque": 40,
+      "descricao": "Caixa de som à prova d'água com 12 horas de bateria e Bluetooth 5.0.",
+      "imagem": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500",
+      "destaque": true,
+      "avaliacao": 4.7
+    },
+    {
+      "id": "8",
+      "nome": "Luminária de Mesa LED",
+      "categoria": "Casa",
+      "preco": 89.9,
+      "estoque": 50,
+      "descricao": "Luminária com 3 temperaturas de luz e controle de intensidade por toque.",
+      "imagem": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500",
+      "destaque": false,
+      "avaliacao": 4.1
+    },
+    {
+      "id": "9",
+      "nome": "Mouse Gamer RGB",
+      "categoria": "Eletrônicos",
+      "preco": 99.9,
+      "estoque": 70,
+      "descricao": "Mouse com sensor de alta precisão e iluminação RGB customizável.",
+      "imagem": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+      "destaque": false,
+      "avaliacao": 4.5
+    },
+    {
+      "id": "10",
+      "nome": "Bolsa Transversal Couro",
+      "categoria": "Acessórios",
+      "preco": 159,
+      "estoque": 22,
+      "descricao": "Bolsa de couro sintético com compartimentos internos e alça ajustável.",
+      "imagem": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=500",
+      "destaque": false,
+      "avaliacao": 4.3
+    },
+    {
+      "id": "23d6608b-755f-4554-b6a2-87d4cb2c5055",
+      "nome": "Iphone 15",
+      "categoria": "Eletrônicos",
+      "preco": 2500,
+      "estoque": 27,
+      "descricao": "O iPhone 15 chegou com novas funcionalidades e melhorias que vão transformar a experiência de uso do seu smartphone.",
+      "imagem": "https://images.unsplash.com/photo-1697284959152-32ef13855932?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "destaque": false,
+      "avaliacao": 5
+    }
+  ],
+  "favoritos": [
+    {
+      "id": "f1",
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "produtoId": "1"
+    },
+    {
+      "id": "f2",
+      "usuarioId": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "produtoId": "3"
+    },
+    {
+      "id": "1c39ef2c-80fe-4421-9a69-06fb735a57da",
+      "usuarioId": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "produtoId": "4"
+    },
+    {
+      "id": "29cc7a96-85d6-4c0c-bfb6-34d3de87fe74",
+      "usuarioId": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "produtoId": "3"
+    }
+  ]
+}
