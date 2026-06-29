@@ -1,11 +1,3 @@
-// server.js
-// Servidor único que combina:
-//  - Servidor de arquivos estáticos (pasta /public) para o frontend
-//  - JSON Server embutido para a API REST (lendo db/db.json)
-//
-// Para rodar:  npm install   &&   npm start
-// Acesse:      http://localhost:3000
-
 const express = require("express");
 const jsonServer = require("json-server");
 const path = require("path");
